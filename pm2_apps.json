@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "vr-demo",
+      "script": "./bin/www",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
